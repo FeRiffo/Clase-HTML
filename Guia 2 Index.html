@@ -1,0 +1,176 @@
+Ejercicio de Frame 
+
+<html>
+<head>
+	<title>Frame</title>
+</head>
+<frameset rows="100,*">
+	<frame src="encabezado.html"></frame>
+<frameset cols="100,*">
+	<frame src="listas.html"></frame>
+	<frame src="index.html"></frame>
+</frameset>
+</frameset>
+</html>
+
+<html>
+<head>
+	<title>Frame</title>
+</head>
+<frameset rows="100,*,100">
+	<frame src="encabezado.html"></frame>
+<frameset cols="100,*,100">
+	<frame src="listas.html"></frame>
+	<frame src="index.html"></frame>
+</frameset>
+</frameset>
+</html>
+
+<html>
+<head>
+	<title>Frame</title>
+</head>
+
+<frameset ROWS="100,*,100">
+	<frame src="listas.html"></frame>
+	<frameset src="index.html">
+  <frameset COLS="100,*,100">
+    <frame src="listas.html"></frame>
+    <frame src="index.html"></frame>
+    <frame src="encabezado.html"></frame>
+  </frameset></frameset>
+  <frame src="encabezado.html"></frame>
+  </frameset>
+
+</html>
+
+<html>
+<head>
+	<title>Frame</title>
+</head>
+<frameset rows="100,*,100">
+	<frame src="encabezado.html"></frame>
+	<frameset cols="100,*,100">
+		<frame src="listas.html"></frame>
+		<frame src="index.html"></frame>
+		<frame src="encabezado.html"></frame>
+	</frameset>
+	<frame src="listas.html"></frame>
+</frameset>
+</html>
+
+Ejercicio de marquee 
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Esto es un ejemplo</title>
+</head>
+<body>
+
+Esto se mueve me parece!!!!!
+
+</body>
+</html>
+
+<html>
+<body>
+<p><marquee> Titulo de alguna propaganda></marquee></p>
+<p><b>This text is bold</b></p>
+<p><i>This text is italic</i></p>
+<p>This is<sub> subscript</sub> and <sup>superscript</sup></p>
+<p>This text is not emphasized</p>
+<p><em>This text is emphasized</em></p>
+4<sub>a</sub>
+3<sup>2</sup>
+<s>Tachado</s>
+<b>hola</b>
+<i>italic</i>
+<em>enfatizado</em>
+<u>hola</u>
+Atributo <q> <<     >>
+</body>
+</html>
+
+<html>
+<body>
+<marquee>Este texto se mueve de derecha a izquierda</marquee><marquee direction="up">Este texto se mueve de abajo hacia arriba</marquee> 
+<marquee direction="down" width="250" height="200" behavior="alternate" style="border:solid">Este texto baja </marquee>
+<marquee behavior="alternate"> Este texto rebotará dentro de la marquesina. </marquee> 
+</body>
+</html>
+
+Ejercicios Varios
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>An unordered HTML list</h2>
+
+<ul>
+  <a href="index.html" target="index" ><li>Inicio</li></a>
+ <a href="https://compumat.es.tl/" target="index"><li>Compumat</li></a>
+  <a href="https://es.wikipedia.org/wiki/Dedo" target="index"><li>dedo</li></a>
+  <a href="https://www.linguee.com.br/espanhol-portugues/traducao/huevo.html" target="encabezado"><li>huevo</li>
+</ul>  
+
+</body>
+</html>
+
+<html>
+<head>
+	<title>Frame</title>
+</head>
+<frameset rows="100,*" border="0">
+	<frame noresize="0" src="encabezado.html" name="encabezado"></frame>
+<frameset cols="300,*">
+	<frame noresize="0" src="listas.html" name="listas"></frame>
+	<frame noresize="0" src="principal.html" name="index"></frame>	
+</frameset>
+</frameset>
+</html>
+
+Ejercicios de Footer
+
+<footer>
+    <p>Publicado por: Ana Riffo/p>
+    <p>Información de contacto: <a href="mailto:alguien@example.com">
+    alguien@example.com</a>.</p>
+  </footer>
+  
+  <!DOCTYPE html>
+  <html>
+  <head>
+      <title>Pie de pagina</title>
+  </head>
+  <body>
+  <footer>
+    <p>Publicado por: Ana Riffo</p>
+    <p>Información de contacto: <a href="mailto:alguien@example.com">
+    alguien@example.com</a>.</p>
+  </footer>
+  
+  </body>
+  </html>
+
+  Ejercicio de formulario 
+
+  <form action="mailto:colabora@desarrolloweb.com" method="post" enctype="text/plain"> Nombre 
+    <input type="text" name="nombre" size="30" maxlength="100"> <br> Email 
+    <input type="text" name="email" size="25" maxlength="100" value="user@servidor.com"> <br> Población 
+    <input type="text" name="poblacion" size="20" maxlength="60"> <br> Sexo <br> 
+    <input type="radio" name="sexo" value="Varon" checked> Hombre <br> 
+    <input type="radio" name="sexo" value="Hembra"> Mujer <br> <br> Frecuencia de los viajes <br> 
+    <select name="utilizacion"> 
+        <option value="1">Varias veces al dia 
+        <option value="2">Una vez al dia 
+        <option value="3">Varias veces a la semana 
+        <option value="4">varias veces al mes 
+    </select> <br> <br> Comentarios sobre su satisfacción personal <br> 
+    <textarea cols="30" rows="7" name="comentarios"></textarea> <br> <br> 
+    <input type="checkbox" name="recibir_info" checked> Deseo recibir notificación de las novedades en las líneas de autobuses. <br> <br> 
+    <input type="submit" value="Enviar formulario"> <br> <br> 
+    <input type="Reset" value="Borrar todo"> 
+</form>
+
